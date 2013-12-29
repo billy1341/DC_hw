@@ -19,5 +19,13 @@
     <string name="show_hints">Show hints</string>
     <string name="title_activity_show_hints">ShowHints</string>
     <string name="hello_world">Hello world!</string>
+    <string-array name="hints">
+        <item>Master\'s degree</item>
+        <item>Find a job</item>
+        <item>Do nothing</item>
+        <item>Work for military</item>
+        <item>Back</item>
+    </string-array>
+    <string name="ok">OK</string>
 
 </resources>
