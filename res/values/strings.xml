@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">How do I live tutorial</string>
     <string name="action_settings">Settings</string>
+    <string name="description_main">Let\'s plan your life!</string>
     <string name="start">Start!</string>
-    <string name="description_main">"Let's plan your life!"</string>
-
+    <string name="title_activity_introduction">ET Introduction</string>
+    <string name="description_introduction1">發明創造其實是一個不斷進化的過程，而不是令人難以把握的飛躍。</string>
+	<string name="description_introduction2">等值變換法是通過相互模擬、借鑒、產生聯想來改變原來的對象而進行創造的方法。</string>
+	<string name="description_introduction3">等值變換法同類比發明法一樣，都是從已有的事物中，通過類比創造發明出新的產品。</string>
+	<string name="next">Next</string>
+	
 </resources>
