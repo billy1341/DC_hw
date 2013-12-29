@@ -16,5 +16,8 @@
     <string name="title_activity_step2">Step2. Choose your next step</string>
     <string name="description1_step2">Now, start planning your life!\nYou have just graduated from university, and it is time to make your decision which you are going to do next.\nYou have 4 choices:</string>
     <string name="description2_step2">1. Master\'s degree\n2. Find a job\n3. Do nothing\n4. Work for military</string>
+    <string name="show_hints">Show hints</string>
+    <string name="title_activity_show_hints">ShowHints</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>

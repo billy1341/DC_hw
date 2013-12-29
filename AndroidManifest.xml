@@ -34,6 +34,10 @@
             android:name="com.example.et_tutorial.Step2"
             android:label="@string/title_activity_step2" >
         </activity>
+        <activity
+            android:name="com.example.et_tutorial.ShowHints"
+            android:label="@string/title_activity_show_hints" >
+        </activity>
     </application>
 
 </manifest>
