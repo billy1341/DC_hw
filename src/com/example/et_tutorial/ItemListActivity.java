@@ -2,6 +2,7 @@ package com.example.et_tutorial;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.NavUtils;
 import android.view.MenuItem;
 
@@ -76,6 +77,10 @@ public class ItemListActivity extends MyMenuFragmentActivity implements
 	@Override
 	public void onItemSelected(String id) {
 		if (mTwoPane) {
+			if(id.equals("a0bt")){
+				Fragment fragment  = new A0btFragment();
+				getSupportFragmentManager().beginTransaction().replace(R.id.item_detail_container, fragment).commit();
+			}else{
 			// In two-pane mode, show the detail view in this activity by
 			// adding or replacing the detail fragment using a
 			// fragment transaction.
@@ -85,6 +90,7 @@ public class ItemListActivity extends MyMenuFragmentActivity implements
 			fragment.setArguments(arguments);
 			getSupportFragmentManager().beginTransaction()
 					.replace(R.id.item_detail_container, fragment).commit();
+			}
 
 		} else {
 			// In single-pane mode, simply start the detail activity

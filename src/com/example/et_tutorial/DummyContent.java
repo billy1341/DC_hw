@@ -25,7 +25,7 @@ public class DummyContent {
 
 	static {
 		// Add 4 sample items.
-		addItem(new DummyItem("1", "A£j and B£n"));
+		addItem(new DummyItem("a0bt", "A£j and B£n"));
 		addItem(new DummyItem("2", "Common parts"));
 		addItem(new DummyItem("3", "Addition and subtraction"));
 		addItem(new DummyItem("4", "Vi"));
