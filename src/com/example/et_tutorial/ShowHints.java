@@ -1,18 +1,19 @@
 package com.example.et_tutorial;
 
 import android.os.Bundle;
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class ShowHints extends Activity {
+public class ShowHints extends MyMenuActivity {
 	
 	private String[] myStringArray;
 	
@@ -32,10 +33,19 @@ public class ShowHints extends Activity {
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.show_hints, menu);
+		super.onCreateOptionsMenu(menu);
 		return true;
 	}
+	
+	@Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+    	super.onOptionsItemSelected(item);
+    	
+    	finish();
+        Intent intent = new Intent(this, ShowHints.class);
+        startActivity(intent);
+    	return true;
+    }
 	
 	// Create a message handling object as an anonymous class.
 	private OnItemClickListener mMessageClickedHandler = new OnItemClickListener() {
