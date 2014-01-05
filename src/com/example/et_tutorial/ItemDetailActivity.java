@@ -2,6 +2,7 @@ package com.example.et_tutorial;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.NavUtils;
 import android.view.MenuItem;
 
@@ -35,13 +36,19 @@ public class ItemDetailActivity extends MyMenuFragmentActivity {
 		if (savedInstanceState == null) {
 			// Create the detail fragment and add it to the activity
 			// using a fragment transaction.
-			Bundle arguments = new Bundle();
-			arguments.putString(ItemDetailFragment.ARG_ITEM_ID, getIntent()
-					.getStringExtra(ItemDetailFragment.ARG_ITEM_ID));
-			ItemDetailFragment fragment = new ItemDetailFragment();
-			fragment.setArguments(arguments);
-			getSupportFragmentManager().beginTransaction()
-					.add(R.id.item_detail_container, fragment).commit();
+			Fragment fragment = null;
+			String id = getIntent().getStringExtra(ItemDetailFragment.ARG_ITEM_ID);
+			if(id.equals("a0bt")){
+				fragment  = new A0btFragment();
+			}else if(id.equals("common_parts")){
+				fragment  = new CommonPartsFragment();
+			}else if(id.equals("sasb")){
+				fragment  = new SasbFragment();
+			}else if(id.equals("vi")){
+				fragment  = new ViFragment();
+			}
+			getSupportFragmentManager().beginTransaction().add(R.id.item_detail_container, fragment).commit();
+			
 		}
 	}
 

@@ -76,25 +76,25 @@ public class ItemListActivity extends MyMenuFragmentActivity implements
 	 */
 	@Override
 	public void onItemSelected(String id) {
+		if(id.equals("restart")){
+			Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+			intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+			startActivity(intent);
+			return;
+		}
+		
 		if (mTwoPane) {
+			Fragment fragment = null;
 			if(id.equals("a0bt")){
-				Fragment fragment  = new A0btFragment();
-				getSupportFragmentManager().beginTransaction().replace(R.id.item_detail_container, fragment).commit();
+				fragment  = new A0btFragment();
 			}else if(id.equals("common_parts")){
-				Fragment fragment  = new CommonPartsFragment();
-				getSupportFragmentManager().beginTransaction().replace(R.id.item_detail_container, fragment).commit();
+				fragment  = new CommonPartsFragment();
 			}else if(id.equals("sasb")){
-				Fragment fragment  = new SasbFragment();
-				getSupportFragmentManager().beginTransaction().replace(R.id.item_detail_container, fragment).commit();
+				fragment  = new SasbFragment();
 			}else if(id.equals("vi")){
-				Fragment fragment  = new ViFragment();
-				getSupportFragmentManager().beginTransaction().replace(R.id.item_detail_container, fragment).commit();
-			}else if(id.equals("restart")){
-				Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-				intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-				startActivity(intent);
+				fragment  = new ViFragment();
 			}
-
+			getSupportFragmentManager().beginTransaction().replace(R.id.item_detail_container, fragment).commit();
 		} else {
 			// In single-pane mode, simply start the detail activity
 			// for the selected item ID.
