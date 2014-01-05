@@ -30,8 +30,8 @@ public class Step2 extends MyMenuActivity {
     	return true;
     }
 	
-	public void next(View view) {
-		Intent intent = new Intent(this,Step2.class);
+	public void restart(View view) {
+		Intent intent = new Intent(this,MainActivity.class);
 		startActivity(intent);
 	}
 	

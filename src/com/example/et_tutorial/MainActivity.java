@@ -33,6 +33,11 @@ public class MainActivity extends MyMenuActivity {
     }
     
     public void start(View view){
+    	Intent intent = new Intent(this,Step1.class);
+    	startActivity(intent);
+    }
+    
+    public void start_et_tutorial(View view){
     	Intent intent = new Intent(this,Introduction.class);
     	startActivity(intent);
     }
