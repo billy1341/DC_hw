@@ -11,9 +11,9 @@
     <string name="et_tutorial">ET tutorial</string>
     <string name="restart">Menu</string>
     <string name="title_activity_introduction">ET Introduction</string>
-    <string name="description1_introduction">發明創造其實是一個不斷進化的過程，而不是令人難以把握的飛躍。</string>
-    <string name="description2_introduction">等值變換法是通過相互模擬、借鑒、產生聯想來改變原來的對象而進行創造的方法。</string>
-    <string name="description3_introduction">等值變換法同類比發明法一樣，都是從已有的事物中，通過類比創造發明出新的產品。</string>
+    <string name="description1_introduction">Invention is the process of evolution, not a huge leap.</string>
+    <string name="description2_introduction">Equivalance transformation is a invention method, which imitate and compares with other objects.</string>
+    <string name="description3_introduction">Equivalance transformation is like analogic Invention, which imitate existent objects to invent new things.</string>
     <string name="next">Next</string>
     <string name="title_activity_step1">Step1. Adjust your life parameter</string>
     <string name="description1_step1">To plan your life, first you have to adjust your current states. These states include:</string>
@@ -23,7 +23,6 @@
     <string name="description2_step2">1. Master\'s degree\n2. Find a job\n3. Do nothing\n4. Work for military</string>
     <string name="show_hints">Show hints</string>
     <string name="title_activity_show_hints">ShowHints</string>
-    <string name="hello_world">Hello world!</string>
 
     <string-array name="hints">
         <item>Master\'s degree</item>
@@ -47,6 +46,6 @@
     <string name="ex_common_parts">Ex. Revolving restaurant → Parking tower\ncε: tower structure, lift system</string>
     <string name="ex_sasb">Ex. Revolving restaurant → Parking tower\nΣa: restaurants, ceilling windows\nΣb: parking lot, driving routes</string>
     <string name="ex_vi">Ex. Revolving restaurant → Parking tower\nVi: increase parking capacity</string>
-    <string name="title_item_detail">Item Detail</string>
+    <string name="title_item_detail"></string>
 
 </resources>

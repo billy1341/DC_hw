@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">How do I live 教學</string>
+    <string name="action_settings">設定</string>
+    <string name="language_en">English</string>
+    <string name="language_zh_TW">繁體中文</string>
+    <string name="language_zh_CN">简体中文</string>
+    <string name="description_main">Let\'s plan your life!</string>
+    <string name="start">開始!</string>
+    <string name="et_tutorial">ET 教學</string>
+    <string name="restart">選單</string>
+    <string name="title_activity_introduction">ET 介紹</string>
+    <string name="description1_introduction">發明創造其實是一個不斷進化的過程，而不是令人難以把握的飛躍。</string>
+    <string name="description2_introduction">等值變換法是通過相互模擬、借鑒、產生聯想來改變原來的對象而進行創造的方法。</string>
+    <string name="description3_introduction">等值變換法同類比發明法一樣，都是從已有的事物中，通過類比創造發明出新的產品。</string>
+    <string name="next">下一步</string>
+    <string name="title_activity_step1">步驟1. 設定參數</string>
+    <string name="description1_step1">開始規劃你的人生，首先必須先設定參數。包含有:</string>
+    <string name="description2_step1">1. Life 表示你的健康程度\n2. Money 表示你的財富\n3. Age 表示你還可以活幾年</string>
+    <string name="title_activity_step2">步驟2. 選擇你的下一階段</string>
+    <string name="description1_step2">現在開始規畫你的人生吧!\n你剛從大學畢業，是時候該決定你的下一步該怎麼做了。\n你有四個選擇:</string>
+    <string name="description2_step2">1. 碩士學位\n2. 找工作\n3. 休息\n4. 從軍</string>
+    <string name="show_hints">提示</string>
+    <string name="title_activity_show_hints">提示</string>
+
+    <string-array name="hints">
+        <item>碩士學位</item>
+        <item>找工作</item>
+        <item>休息</item>
+        <item>從軍</item>
+        <item>回上頁</item>
+    </string-array>
+
+    <string name="ok">確定</string>
+    <string name="title_item_list">@string/et_tutorial</string>
+    <string name="a0bt">Aο 與 Bτ</string>
+    <string name="common_parts">Common parts</string>
+    <string name="sasb">Addition 與 subtraction</string>
+    <string name="vi">Vi</string>
+    <string name="description_a0bt">Aο 是原本的狀態， Bτ 是最後的狀態。</string>
+    <string name="description_common_parts">Common parts 是 Aο 與 Bτ 共有的部分</string>
+    <string name="description_sasb">Σa 是從 Aο 移除的部分。 Σb 是加入 Bτ 的部分</string>
+    <string name="description_vi">Vi 是改進 Aο 的觀點</string>
+    <string name="ex_a0bt">例如: 旋轉景觀餐廳 → 停車塔\nAο: 旋轉景觀餐廳\nBτ: 停車塔</string>
+    <string name="ex_common_parts">例如: 旋轉景觀餐廳 → 停車塔\ncε: 塔狀結構、升降系統</string>
+    <string name="ex_sasb">例如: 旋轉景觀餐廳 → 停車塔\nΣa: 餐廳、落地窗\nΣb: 停車區塊、行車路線</string>
+    <string name="ex_vi">例如: 旋轉景觀餐廳 → 停車塔\nVi: 增加停車容量</string>
+
+</resources>

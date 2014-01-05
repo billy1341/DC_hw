@@ -1,6 +1,7 @@
 package com.example.et_tutorial;
 
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.NavUtils;
@@ -38,17 +39,24 @@ public class ItemDetailActivity extends MyMenuFragmentActivity {
 			// using a fragment transaction.
 			Fragment fragment = null;
 			String id = getIntent().getStringExtra(ItemDetailFragment.ARG_ITEM_ID);
+			Resources res = getResources();
+			String title = null;
+			
 			if(id.equals("a0bt")){
 				fragment  = new A0btFragment();
+				title = res.getString(R.string.a0bt);
 			}else if(id.equals("common_parts")){
 				fragment  = new CommonPartsFragment();
+				title = res.getString(R.string.common_parts);
 			}else if(id.equals("sasb")){
 				fragment  = new SasbFragment();
+				title = res.getString(R.string.sasb);
 			}else if(id.equals("vi")){
 				fragment  = new ViFragment();
+				title = res.getString(R.string.vi);
 			}
 			getSupportFragmentManager().beginTransaction().add(R.id.item_detail_container, fragment).commit();
-			
+			getActionBar().setTitle(title);
 		}
 	}
 
