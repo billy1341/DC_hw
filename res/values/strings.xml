@@ -9,7 +9,7 @@
     <string name="description_main">Let\'s plan your life!</string>
     <string name="start">Start!</string>
     <string name="et_tutorial">ET tutorial</string>
-    <string name="restart">Restart</string>
+    <string name="restart">Menu</string>
     <string name="title_activity_introduction">ET Introduction</string>
     <string name="description1_introduction">發明創造其實是一個不斷進化的過程，而不是令人難以把握的飛躍。</string>
     <string name="description2_introduction">等值變換法是通過相互模擬、借鑒、產生聯想來改變原來的對象而進行創造的方法。</string>
@@ -40,7 +40,13 @@
     <string name="sasb">Addition and subtraction</string>
     <string name="vi">Vi</string>
     <string name="description_a0bt">Aο is origianl states, and Bτ is final states.</string>
+    <string name="description_common_parts">Common parts are those components which are common between Aο and Bτ</string>
+    <string name="description_sasb">Σa are those components which are removed from Aο. Σb are those components which are added to Bτ</string>
+    <string name="description_vi">Vi is the perspective to invent or improve Aο</string>
     <string name="ex_a0bt">Ex. Revolving restaurant → Parking tower\nAο: Revolving restaurant\nBτ: Parking tower</string>
+    <string name="ex_common_parts">Ex. Revolving restaurant → Parking tower\ncε: tower structure, lift system</string>
+    <string name="ex_sasb">Ex. Revolving restaurant → Parking tower\nΣa: restaurants, ceilling windows\nΣb: parking lot, driving routes</string>
+    <string name="ex_vi">Ex. Revolving restaurant → Parking tower\nVi: increase parking capacity</string>
     <string name="title_item_detail">Item Detail</string>
 
 </resources>

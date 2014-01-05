@@ -29,6 +29,7 @@ public class DummyContent {
 		addItem(new DummyItem("common_parts", "Common parts"));
 		addItem(new DummyItem("sasb", "Addition and subtraction"));
 		addItem(new DummyItem("vi", "Vi"));
+		addItem(new DummyItem("restart", "Menu"));
 	}
 
 	private static void addItem(DummyItem item) {

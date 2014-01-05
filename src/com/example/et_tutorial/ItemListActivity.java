@@ -89,6 +89,10 @@ public class ItemListActivity extends MyMenuFragmentActivity implements
 			}else if(id.equals("vi")){
 				Fragment fragment  = new ViFragment();
 				getSupportFragmentManager().beginTransaction().replace(R.id.item_detail_container, fragment).commit();
+			}else if(id.equals("restart")){
+				Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+				intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+				startActivity(intent);
 			}
 
 		} else {
