@@ -31,7 +31,8 @@ public class Step2 extends MyMenuActivity {
     }
 	
 	public void restart(View view) {
-		Intent intent = new Intent(this,MainActivity.class);
+		Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+		intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 		startActivity(intent);
 	}
 	

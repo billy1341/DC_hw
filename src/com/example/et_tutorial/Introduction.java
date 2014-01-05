@@ -31,7 +31,7 @@ public class Introduction extends MyMenuActivity {
     }
 	
 	public void next(View view) {
-		Intent intent = new Intent(this,Step1.class);
+		Intent intent = new Intent(this,ItemListActivity.class);
 		startActivity(intent);
 	}
 

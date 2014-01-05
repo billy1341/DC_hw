@@ -2,14 +2,13 @@ package com.example.et_tutorial;
 
 import java.util.Locale;
 
-import android.app.Activity;
 import android.content.res.Configuration;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class MyMenuActivity extends Activity{
-	
+public class MyMenuFragmentActivity extends FragmentActivity {
 	protected MyVar myvar;
 	
 	@Override
@@ -22,15 +21,15 @@ public class MyMenuActivity extends Activity{
 	    config.locale = myvar.locale;
 	    getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
     }
-
-    @Override
+	
+	@Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu, menu);
         return super.onCreateOptionsMenu(menu);
     }
-    
-    @Override
+	
+	@Override
     public boolean onOptionsItemSelected(MenuItem item) {
     	switch (item.getItemId()) {
     		case R.id.language_en:
@@ -47,4 +46,5 @@ public class MyMenuActivity extends Activity{
     	}
     	return super.onOptionsItemSelected(item);
     }
+
 }

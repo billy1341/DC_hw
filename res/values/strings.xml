@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">How do I live tutorial</string>
     <string name="action_settings">Settings</string>
     <string name="language_en">English</string>
@@ -23,6 +24,7 @@
     <string name="show_hints">Show hints</string>
     <string name="title_activity_show_hints">ShowHints</string>
     <string name="hello_world">Hello world!</string>
+
     <string-array name="hints">
         <item>Master\'s degree</item>
         <item>Find a job</item>
@@ -30,6 +32,13 @@
         <item>Work for military</item>
         <item>Back</item>
     </string-array>
+
     <string name="ok">OK</string>
+    <string name="title_item_list">@string/et_tutorial</string>
+    <string name="a0bt">Aο and Bτ</string>
+    <string name="common_parts">Common parts</string>
+    <string name="sasb">Addition and subtraction</string>
+    <string name="vi">Vi</string>
+    <string name="title_item_detail">Item Detail</string>
 
 </resources>

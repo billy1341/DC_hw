@@ -39,6 +39,22 @@
             android:name="com.example.et_tutorial.ShowHints"
             android:label="@string/title_activity_show_hints" >
         </activity>
+        <activity
+            android:name="com.example.et_tutorial.ItemListActivity"
+            android:label="@string/title_item_list"
+            android:parentActivityName="com.example.et_tutorial.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.et_tutorial.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.et_tutorial.ItemDetailActivity"
+            android:label="@string/title_item_detail"
+            android:parentActivityName=".ItemListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ItemListActivity" />
+        </activity>
     </application>
 
 </manifest>
