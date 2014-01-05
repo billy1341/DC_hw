@@ -39,6 +39,8 @@
     <string name="common_parts">Common parts</string>
     <string name="sasb">Addition and subtraction</string>
     <string name="vi">Vi</string>
+    <string name="description_a0bt">Aο is origianl states, and Bτ is final states.</string>
+    <string name="ex_a0bt">Ex. Revolving restaurant → Parking tower\nAο: Revolving restaurant\nBτ: Parking tower</string>
     <string name="title_item_detail">Item Detail</string>
     <string name="title_activity_a0bt">A0bt</string>
 

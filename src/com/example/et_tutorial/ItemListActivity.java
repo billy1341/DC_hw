@@ -80,6 +80,9 @@ public class ItemListActivity extends MyMenuFragmentActivity implements
 			if(id.equals("a0bt")){
 				Fragment fragment  = new A0btFragment();
 				getSupportFragmentManager().beginTransaction().replace(R.id.item_detail_container, fragment).commit();
+			}else if(id.equals("common_parts")){
+				Fragment fragment  = new CommonPartsFragment();
+				getSupportFragmentManager().beginTransaction().replace(R.id.item_detail_container, fragment).commit();
 			}else{
 			// In two-pane mode, show the detail view in this activity by
 			// adding or replacing the detail fragment using a
